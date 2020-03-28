@@ -21,7 +21,7 @@ app.listen(PORT, () => console.log('Server running on port 5000'));
 
 mongoose.connect('mongodb://localhost:27017/URL_Shortner')
     .then(function (result) {
-        console.log("connected with the database");
+        console.log("Connected with the database");
     })
     .catch(function (err) {
         console.log(err);
