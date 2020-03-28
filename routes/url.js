@@ -4,7 +4,7 @@ const validUrl = require('valid-url');
 const shortid = require('shortid');
 const config = require('config');
 
-const Url = require('../models/Url');
+const Url = require('../models/url');
 
 // @route     POST /api/url/shorten
 // @desc      Create short URL
@@ -21,7 +21,7 @@ router.post('/shorten', async (req, res) => {
   const urlCode = shortid.generate();
 
   // Checking the long url
-  if (validUrl.isUri(longUrl)) {
+  if (!validUrl.isUri(longUrl)) {
     try {
       let url = await Url.findOne({ longUrl });
 

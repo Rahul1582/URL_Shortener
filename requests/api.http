@@ -3,6 +3,7 @@ POST http://localhost:5000/api/url/shorten
 Content-Type: application/json
 
 {
-    "longUrl":"https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC4QFjAA&url=http%3A%2F%2Fthelongestlistofthelongeststuffatthelongestdomainnameatlonglast.com%2Fwearejustdoingthistobestupidnowsincethiscangoonforeverandeverandeverbutitstilllookskindaneatinthebrowsereventhoughitsabigwasteoftimeandenergyandhasnorealpointbutwehadtodoitanyways.html&ei=40egUo2MGI3xoATQtIKwDQ&usg=AFQjCNHbBa5Fk4YutdUOj_D8IwpJLu7hGw&sig2=8P4ew1Yie72Ps_OQ-L5cXw&bvm=bv.57155469,d.cGU"
+    "longUrl":"https://www.flipkart.com/envy-women-eau-de-parfum-60-ml/p/itmf3wgyugud52w9?pid=PEREHGFBAUGSPZEF&lid=LSTPEREHGFBAUGSPZEFHNNIUN&marketplace=FLIPKART&spotlightTagId=BestsellerId_g9b%2F0yh%2Fjhz&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=4f50407d-b51a-4772-8501-8487f5111570.PEREHGFBAUGSPZEF.SEARCH&ppt=sp&ppn=sp&ssid=ov5deotdy80000001585430825958&qH=fa715abb8273d019"
     
 }
+
