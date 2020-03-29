@@ -1,29 +1,24 @@
-const express=require('express')
+const express = require('express');
 var mongoose = require('mongoose');
 
-
-const app=express()
-
+const app = express();
 
 
-app.use(express.json({extended:false}));
-// Allows us to accept json data into our api 
+app.use(express.json());
 
-// Defining our routes
-app.use('/', require('./routes/view'));
-app.use('/api/url',require('./routes/shortner'));
+// Defining the Routes
+app.use('/', require('./routes/index'));
+app.use('/api/url', require('./routes/url'));
 
+const PORT = 5000;
 
-const PORT=5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-
-app.listen(PORT, () => console.log('Server running on port 5000'));
-
-mongoose.connect('mongodb://localhost:27017/URL_Shortner')
+//Mongoose Connection
+mongoose.connect('mongodb://localhost:27017/URL_Shortner1')
     .then(function (result) {
         console.log("Connected with the database");
     })
     .catch(function (err) {
         console.log(err);
     });
-

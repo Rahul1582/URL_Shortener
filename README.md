@@ -1,14 +1,16 @@
-# URL_Shortner
+# URL_Shortener
 
-API to create a URL short.
+The main objective of this project idea is to shorten URLs.
 
 ## Usage
 
-With the help of this the users can shorten the long url's. By this:-
+ The main task the application will accomplish is to shorten URLs and then redirect users to the original URL when the shortened URL is visited.. By this:-
 
 1. They make links more manageable.
 2. They can track and compile click data.
 3. They promote sharing.
+
+Since users will visit the shortened URL days, months, or even years after, we are saving the original and shortened URLs in a database. When a request comes in, the application checks if the URL exists and redirects to the original, or else it redirects to a 404 page.
 
 ## Dependencies 
 
@@ -30,10 +32,10 @@ Then go to the requests folder, and you have to click on the post request button
 ```
 
 ### Demo
-
+<!-- 
 <center>
 <img src ="images/demo.gif"  width=700 height=400>
-</center>
+</center> -->
 
 ### Author 
 ```

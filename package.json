@@ -1,31 +1,23 @@
 {
-  "name": "url_shortner",
+  "name": "url_shortner_service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index",
-    "dev":"nodemon index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rahul1582/URL_Shortner.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rahul1582/URL_Shortner/issues"
-  },
-  "homepage": "https://github.com/Rahul1582/URL_Shortner#readme",
   "dependencies": {
-    "config": "^3.3.1",
+    "config": "^3.1.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.6",
-    "shortid": "^2.2.15",
+    "mongoose": "^5.6.4",
+    "shortid": "^2.2.14",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^1.19.1"
   }
 }
