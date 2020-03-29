@@ -6,21 +6,21 @@ const config = require('config');
 
 const Url = require('../models/url');
 
-// @route     POST /api/url/shorten
-// @desc      Create short URL
+//  POST /api/url/shorten
+
 router.post('/shorten', async (req, res) => {
   const { longUrl } = req.body;
   const baseUrl = config.get('baseUrl');
 
-  // Checking the  base url
+  
   if (!validUrl.isUri(baseUrl)) {
     return res.status(401).json('Invalid base url');
   }
 
-  // Create an url code
+  
   const urlCode = shortid.generate();
 
-  // Checking the long url
+  
   if (!validUrl.isUri(longUrl)) {
     try {
       let url = await Url.findOne({ longUrl });

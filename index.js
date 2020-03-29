@@ -10,8 +10,8 @@ app.use(express.json({extended:false}));
 // Allows us to accept json data into our api 
 
 // Defining our routes
-app.use('/', require('./routes/index'));
-app.use('/api/url',require('./routes/url'));
+app.use('/', require('./routes/view'));
+app.use('/api/url',require('./routes/shortner'));
 
 
 const PORT=5000;
