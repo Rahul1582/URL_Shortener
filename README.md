@@ -32,10 +32,8 @@ Then go to the requests folder, and you have to click on the post request button
 ```
 
 ### Demo
-<!-- 
-<center>
+
 <img src ="images/demo.gif"  width=700 height=400>
-</center> -->
 
 ### Author 
 ```
