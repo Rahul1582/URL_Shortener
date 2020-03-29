@@ -29,9 +29,11 @@ Then the nodemon server will start. Yahoo..!!!
 Then go to the requests folder, and you have to click on the post request button by copying your url you want to shorten in the longUrl portion.
 ```
 
-## Demo
+### Demo
 
-<img src ="images/demo.gif"  width=850 height=500>
+<center>
+<img src ="images/demo.gif"  width=700 height=400>
+</center>
 
 ### Author 
 ```
